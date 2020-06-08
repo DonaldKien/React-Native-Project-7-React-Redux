@@ -47,7 +47,8 @@ function mapStateToProps (state1) {
 
 function mapDispatchToProps (dispatch) {
 	return {
-		increment: () => dispatch({type: 'INCREMENT'}), decrement: () => dispatch({type: 'DECREMENT'})
+		increment: () => dispatch({type: 'INCREMENT'}), 
+		decrement: () => dispatch({type: 'DECREMENT'})
 	}
 }
 
